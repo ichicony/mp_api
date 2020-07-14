@@ -16,7 +16,7 @@ router.get('/drxs', function(req, res, next) {
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-    res.send('api is running..');
+    res.send('api is running on port:3000..');
 });
 
 
